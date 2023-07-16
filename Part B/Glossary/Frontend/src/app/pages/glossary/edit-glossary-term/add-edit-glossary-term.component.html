@@ -1,0 +1,23 @@
+<h5>
+    - Editor -------
+</h5>
+<form [formGroup]="glossaryTermForm" (ngSubmit)="onSubmit()">
+    <table>
+        <th>Term</th>
+        <th>Definition</th>
+        <tbody>
+            <tr>
+                <td><input type="text" placeholder="Term" formControlName="term"></td>
+                <td><input type="text" placeholder="Definition" formControlName="definition"></td>
+                <td>
+                    <button
+                        type="submit"
+                        [ngClass]="{'addButton': editMode === 'Add term', 'updateButton': editMode === 'Update'}"
+                    >
+                        {{editMode}}
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>   
+</form>

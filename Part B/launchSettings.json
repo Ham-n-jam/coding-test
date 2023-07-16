@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "serviceActions": {
+        "glossary": "StartDebugging",
+        "mssql": "StartWithoutDebugging"
+      },
+      "commandVersion": "1.0"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<div class="container">
+	<h2>Glossary</h2>
+	<div class="glossary">
+		<div class="glossary_editor">
+			<add-edit-glossary-term
+				[editMode]="editMode"
+				[termToEdit]="termToEdit"
+				(glossaryTerm)="onSubmitAddEdit($event)"
+			></add-edit-glossary-term>
+		</div>
+
+		<table *ngIf="(isLoading$ | async) !== true" border="1" frame="void" rules="rows">
+			<th>Term</th>
+			<th>Definition</th>
+			<tbody>
+			<tr *ngFor="let term of terms$ | async">
+				<td>{{term.term}}</td>
+				<td>{{term.definition}}</td>
+				<td><button (click)="onEditClicked(term)">Edit</button></td>
+				<td><button (click)="onDeleteClicked(term)">Delete</button></td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

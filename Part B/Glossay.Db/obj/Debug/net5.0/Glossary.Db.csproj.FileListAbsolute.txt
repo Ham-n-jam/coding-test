@@ -1,0 +1,12 @@
+C:\Users\Alex\Desktop\Code\Interview\Part B\Glossay.Db\bin\Debug\net5.0\Glossary.Db.deps.json
+C:\Users\Alex\Desktop\Code\Interview\Part B\Glossay.Db\bin\Debug\net5.0\Glossary.Db.dll
+C:\Users\Alex\Desktop\Code\Interview\Part B\Glossay.Db\bin\Debug\net5.0\ref\Glossary.Db.dll
+C:\Users\Alex\Desktop\Code\Interview\Part B\Glossay.Db\bin\Debug\net5.0\Glossary.Db.pdb
+C:\Users\Alex\Desktop\Code\Interview\Part B\Glossay.Db\obj\Debug\net5.0\Glossary.Db.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\Code\Interview\Part B\Glossay.Db\obj\Debug\net5.0\Glossary.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Desktop\Code\Interview\Part B\Glossay.Db\obj\Debug\net5.0\Glossary.Db.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\Code\Interview\Part B\Glossay.Db\obj\Debug\net5.0\Glossary.Db.AssemblyInfo.cs
+C:\Users\Alex\Desktop\Code\Interview\Part B\Glossay.Db\obj\Debug\net5.0\Glossary.Db.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\Code\Interview\Part B\Glossay.Db\obj\Debug\net5.0\Glossary.Db.dll
+C:\Users\Alex\Desktop\Code\Interview\Part B\Glossay.Db\obj\Debug\net5.0\ref\Glossary.Db.dll
+C:\Users\Alex\Desktop\Code\Interview\Part B\Glossay.Db\obj\Debug\net5.0\Glossary.Db.pdb

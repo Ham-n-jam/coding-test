@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  glossary:
+    image: ${DOCKER_REGISTRY-}glossary
+    container_name: glossary-api
+    build:
+      context: .
+      dockerfile: Glossary/Dockerfile
+  
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: glossary-db
+  
+  glossary.ng.frontend:
+    image: ${DOCKER_REGISTRY-}glossaryngfrontend
+    container_name: glossary-frontend
+    build:
+      context: .
+      dockerfile: Glossary/Frontend/Dockerfile

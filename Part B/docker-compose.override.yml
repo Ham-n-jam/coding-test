@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  glossary:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - DbConnectionDetails__Server=glossary-db,1433
+      - DbConnectionDetails__Database=Glossary
+      - DbConnectionDetails__Username=sa
+      - DbConnectionDetails__Password=<YourStrong!Passw0rd>
+    ports:
+      - "6010:80"
+    volumes:
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+  mssql:
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=<YourStrong!Passw0rd>
+    ports:
+      - "6043:1433" 
+
+  glossary.ng.frontend:
+    ports:
+      - "4200:4200" 
+      - "49153:49153"
+    volumes:
+      - ./Glossary/Frontend:/app

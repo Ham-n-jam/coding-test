@@ -1,0 +1,15 @@
+.container {
+    padding: 2em;
+}
+
+.glossary {
+    display: flex;
+
+    &_editor {
+        padding-right: 60px;
+    }
+}
+
+td {
+    padding: 2px 8px;
+}
